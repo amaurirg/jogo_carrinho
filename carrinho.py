@@ -9,7 +9,7 @@ pygame.init()
 x = 360     # max 690, min 20
 # Eixo y
 y = 100
-pos_x = 526
+pos_x = 126
 pos_y = 800
 pos_y_a = 800
 pos_y_c = 800
@@ -98,8 +98,8 @@ while janela_aberta:
     janela.blit(carro_policia, (pos_x, pos_y))
     janela.blit(carro_ambulancia, (pos_x + 515, pos_y - 270))
     janela.blit(carro_vermelho, (pos_x, pos_y - 260))
-    janela.blit(carro_cinza, (pos_x + 515, pos_y))
-    janela.blit(carro_branco, (x, pos_y))
+    janela.blit(carro_cinza, (pos_x + 215, pos_y))
+    # janela.blit(carro_branco, (x, pos_y))
     janela.blit(texto, pos_texto)
 
     # Cria um círculo (RGB), a posição na tela (400,300) e o raio do círculo em pixels
